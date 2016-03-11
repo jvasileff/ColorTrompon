@@ -19,6 +19,29 @@
       <p>
         ColorTrompon adds syntax highlighting to a Ceylon code snippet, based purely on lexical analysis.
       </p>
+      <hr/>
+      <p>
+        This fork of Lucas Werkmeister's
+        <a href="https://github.com/lucaswerkmeister/ColorTrompon">ColorTrompon</a>
+        serves as a demo app for the
+        <a href="https://github.com/jvasileff/ceylon-dart">Dart backend for Ceylon</a>.
+        <br/>
+        <br/>
+        It has been rewritten in 100% Ceylon (see the code below), compiled to
+        Dart, and then compiled to JavaScript using dart2js.
+        <br/>
+        <br/>
+        Modules used by this app:
+        <ul>
+        <li>ceylon.language (<a href="https://modules.ceylon-lang.org/repo/1/ceylon/language/1.2.1/module-doc/api/index.html">api</a>)
+        <li>ceylon.collection (<a href="https://modules.ceylon-lang.org/repo/1/ceylon/collection/1.2.1/module-doc/api/index.html">api</a>)
+        <li>ceylon.html (<a href="https://modules.ceylon-lang.org/repo/1/ceylon/html/1.2.1/module-doc/api/index.html">api</a>)
+        <li>ceylon.lexer.core (<a href="https://github.com/lucaswerkmeister/ceylon.parser">github</a>)
+        <li>ceylon.interop.dart
+        <li>dart.core (<a href="https://api.dartlang.org/1.14.2/dart-core/dart-core-library.html">api</a>)
+        <li>dart.async (<a href="https://api.dartlang.org/1.14.2/dart-async/dart-async-library.html">api</a>)
+        <li>dart.html (<a href="https://api.dartlang.org/1.14.2/dart-html/dart-html-library.html">api</a>)
+      </p>
     </div>
     <form id="mainForm" role="form">
       <div class="form-group">

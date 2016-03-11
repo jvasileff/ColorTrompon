@@ -141,4 +141,3 @@ Result(Argument) memoize<Result, Argument>
                 return result;
             }
         });
-
